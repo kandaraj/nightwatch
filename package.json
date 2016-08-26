@@ -1,0 +1,26 @@
+{
+  "name": "nightwatchApp",
+  "version": "1.0.0",
+  "description": "A nightwatch sample app",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "nightwatch": "^0.9.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kandaraj/nightwatch.git"
+  },
+  "author": "Siva Kandaraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kandaraj/nightwatch/issues"
+  },
+  "homepage": "https://github.com/kandaraj/nightwatch#readme"
+}
