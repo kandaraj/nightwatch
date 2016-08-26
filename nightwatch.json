@@ -19,9 +19,9 @@
 
   "test_settings" : {
     "default" : {
-      "launch_url" : "http://localhost:8080",
-      "selenium_port"  : 4444,
-      "selenium_host"  : "localhost",
+      "launch_url" : "http://hub.browserstack.com",
+      "selenium_port"  : 80,
+      "selenium_host"  : "hub.browserstack.com",
       "silent": true,
       "screenshots" : {
         "enabled" : false,
@@ -30,7 +30,13 @@
       "desiredCapabilities": {
         "browserName": "chrome",
         "javascriptEnabled": true,
-        "acceptSslCerts": true
+        "acceptSslCerts": true,
+        "browserstack.user": "ram1",
+        "browserstack.key": "wer",
+        "proxy": {
+          "proxyType": "manual",
+          "httpProxy": "https://proxy.blah.com.au:3128"
+        }
       }
     },
 

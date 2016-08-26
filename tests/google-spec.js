@@ -1,7 +1,7 @@
 module.exports = {
     'Demo test Google' : function (browser) {
         browser
-            .url('http://localhost:8080')
+            .url('https://google.com')
             .waitForElementVisible('body', 1000)
             .assert.hidden("table")
             .click('.search-panel-button')
